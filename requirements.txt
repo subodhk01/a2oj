@@ -1,0 +1,11 @@
+asgiref==3.2.7
+certifi==2019.11.28
+chardet==3.0.4
+CodeforcesApiPy==1.2.1
+Django==3.0.5
+idna==2.9
+lxml==4.5.0
+pytz==2019.3
+requests==2.23.0
+sqlparse==0.3.1
+urllib3==1.25.8
