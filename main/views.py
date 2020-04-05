@@ -11,7 +11,6 @@ def home(request):
         print(div)
     except:
         return render(request, 'index.html')
-    user = codeforces_api.CodeforcesApi(API_KEY, API_SECRET)
     parser = codeforces_api.CodeforcesApi()
     try:
         submissions = parser.user_status(handle=handle)
