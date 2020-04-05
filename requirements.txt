@@ -3,6 +3,7 @@ certifi==2019.11.28
 chardet==3.0.4
 CodeforcesApiPy==1.2.1
 Django==3.0.5
+gunicorn==20.0.4
 idna==2.9
 lxml==4.5.0
 pytz==2019.3
