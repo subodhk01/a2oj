@@ -1,0 +1,665 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<title>A2OJ Ladder 5</title>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+}
+</style>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push( [ '_setAccount', 'UA-16947566-3' ]);
+	_gaq.push( [ '_trackPageview' ]);
+
+	( function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<center><table>
+<tr>
+<td colspan="2"><center><b>Ladder Name: </b>5 - Codeforces Div. 2, B
+<br/><br/>
+</center>
+</td>
+</tr>
+<tr>
+<td colspan="2"><center><b>Description: </b><br/>List of random Codeforces problems, all of them are Div. 2 B problems. The problems are sorted, the most solved problem comes first. This is a good practice for whoever can solve almost all Div. 2 A problems, but might have some difficulties while solving the B problems.
+<br/><br/>
+</center>
+</td>
+</tr>
+<tr>
+<td colspan="2"><center><b>Difficulty Level: </b>3
+<br/>
+</center>
+</td>
+</tr>
+</table><br/>
+<table>
+<tr>
+<th>ID</th>
+<th>Problem Name</th>
+<th>Online Judge</th>
+<th>Difficulty Level</th>
+</tr>
+<tr>
+<td>1</td>
+<td><a href="http://codeforces.com/problemset/problem/266/B" target="_blank">Queue at the School</a></td>
+<td>Codeforces</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="http://codeforces.com/problemset/problem/339/B" target="_blank">Xenia and Ringroad</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="http://codeforces.com/problemset/problem/467/B" target="_blank">Fedor and New Game</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="http://codeforces.com/problemset/problem/478/B" target="_blank">Random Teams</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="http://codeforces.com/problemset/problem/492/B" target="_blank">Vanya and Lanterns</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="http://codeforces.com/problemset/problem/451/B" target="_blank">Sort the Array</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="http://codeforces.com/problemset/problem/499/B" target="_blank">Lecture</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="http://codeforces.com/problemset/problem/230/B" target="_blank">T-primes</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="http://codeforces.com/problemset/problem/508/B" target="_blank">Anton and currency you all know</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="http://codeforces.com/problemset/problem/447/B" target="_blank">DZY Loves Strings</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="http://codeforces.com/problemset/problem/507/B" target="_blank">Amr and Pins</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="http://codeforces.com/problemset/problem/454/B" target="_blank">Little Pony and Sort by Shift</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="http://codeforces.com/problemset/problem/450/B" target="_blank">Jzzhu and Sequences</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="http://codeforces.com/problemset/problem/265/B" target="_blank">Roadside Trees (Simplified Edition)</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="http://codeforces.com/problemset/problem/285/B" target="_blank">Find Marble</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="http://codeforces.com/problemset/problem/448/B" target="_blank">Suffix Structures</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="http://codeforces.com/problemset/problem/259/B" target="_blank">Little Elephant and Magic Square</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="http://codeforces.com/problemset/problem/486/B" target="_blank">OR in Matrix</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="http://codeforces.com/problemset/problem/432/B" target="_blank">Football Kit</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="http://codeforces.com/problemset/problem/276/B" target="_blank">Little Girl and Game</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="http://codeforces.com/problemset/problem/362/B" target="_blank">Petya and Staircases</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="http://codeforces.com/problemset/problem/279/B" target="_blank">Books</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="http://codeforces.com/problemset/problem/469/B" target="_blank">Chat Online</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="http://codeforces.com/problemset/problem/509/B" target="_blank">Painting Pebbles</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="http://codeforces.com/problemset/problem/493/B" target="_blank">Vasya and Wrestling</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="http://codeforces.com/problemset/problem/387/B" target="_blank">George and Round</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="http://codeforces.com/problemset/problem/365/B" target="_blank">The Fibonacci Segment</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="http://codeforces.com/problemset/problem/157/B" target="_blank">Trace</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="http://codeforces.com/problemset/problem/34/B" target="_blank">Sale</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="http://codeforces.com/problemset/problem/330/B" target="_blank">Road Construction</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>31</td>
+<td><a href="http://codeforces.com/problemset/problem/116/B" target="_blank">Little Pigs and Wolves</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>32</td>
+<td><a href="http://codeforces.com/problemset/problem/4/B" target="_blank">Before an Exam</a></td>
+<td>Codeforces</td>
+<td>1</td>
+</tr>
+<tr>
+<td>33</td>
+<td><a href="http://codeforces.com/problemset/problem/282/B" target="_blank">Painting Eggs</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>34</td>
+<td><a href="http://codeforces.com/problemset/problem/122/B" target="_blank">Lucky Substring</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>35</td>
+<td><a href="http://codeforces.com/problemset/problem/155/B" target="_blank">Combination</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>36</td>
+<td><a href="http://codeforces.com/problemset/problem/352/B" target="_blank">Jeff and Periods</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>37</td>
+<td><a href="http://codeforces.com/problemset/problem/133/B" target="_blank">Unary</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>38</td>
+<td><a href="http://codeforces.com/problemset/problem/289/B" target="_blank">Polo the Penguin and Matrix</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>39</td>
+<td><a href="http://codeforces.com/problemset/problem/366/B" target="_blank">Dima and To-do List</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>40</td>
+<td><a href="http://codeforces.com/problemset/problem/58/B" target="_blank">Coins</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>41</td>
+<td><a href="http://codeforces.com/problemset/problem/514/B" target="_blank">Han Solo and Lazer Gun</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>42</td>
+<td><a href="http://codeforces.com/problemset/problem/408/B" target="_blank">Garland</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>43</td>
+<td><a href="http://codeforces.com/problemset/problem/357/B" target="_blank">Flag Day</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>44</td>
+<td><a href="http://codeforces.com/problemset/problem/416/B" target="_blank">Art Union</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>45</td>
+<td><a href="http://codeforces.com/problemset/problem/110/B" target="_blank">Lucky String</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>46</td>
+<td><a href="http://codeforces.com/problemset/problem/66/B" target="_blank">Petya and Countryside</a></td>
+<td>Codeforces</td>
+<td>2</td>
+</tr>
+<tr>
+<td>47</td>
+<td><a href="http://codeforces.com/problemset/problem/312/B" target="_blank">Archer</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>48</td>
+<td><a href="http://codeforces.com/problemset/problem/337/B" target="_blank">Routine Problem</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>49</td>
+<td><a href="http://codeforces.com/problemset/problem/349/B" target="_blank">Color the Fence</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>50</td>
+<td><a href="http://codeforces.com/problemset/problem/361/B" target="_blank">Levko and Permutation</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>51</td>
+<td><a href="http://codeforces.com/problemset/problem/182/B" target="_blank">Vasya's Calendar</a></td>
+<td>Codeforces</td>
+<td>1</td>
+</tr>
+<tr>
+<td>52</td>
+<td><a href="http://codeforces.com/problemset/problem/234/B" target="_blank">Reading</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>53</td>
+<td><a href="http://codeforces.com/problemset/problem/151/B" target="_blank">Phone Numbers</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>54</td>
+<td><a href="http://codeforces.com/problemset/problem/359/B" target="_blank">Permutation</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>55</td>
+<td><a href="http://codeforces.com/problemset/problem/129/B" target="_blank">Students and Shoelaces</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>56</td>
+<td><a href="http://codeforces.com/problemset/problem/143/B" target="_blank">Help Kingdom of Far Far Away 2</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>57</td>
+<td><a href="http://codeforces.com/problemset/problem/437/B" target="_blank">The Child and Set</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>58</td>
+<td><a href="http://codeforces.com/problemset/problem/233/B" target="_blank">Non-square Equation</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>59</td>
+<td><a href="http://codeforces.com/problemset/problem/219/B" target="_blank">Special Offer! Super Price 999 Bourles!</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>60</td>
+<td><a href="http://codeforces.com/problemset/problem/205/B" target="_blank">Little Elephant and Sorting</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>61</td>
+<td><a href="http://codeforces.com/problemset/problem/192/B" target="_blank">Walking in the Rain</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>62</td>
+<td><a href="http://codeforces.com/problemset/problem/228/B" target="_blank">Two Tables</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>63</td>
+<td><a href="http://codeforces.com/problemset/problem/342/B" target="_blank">Xenia and Spies</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>64</td>
+<td><a href="http://codeforces.com/problemset/problem/96/B" target="_blank">Lucky Numbers (easy)</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>65</td>
+<td><a href="http://codeforces.com/problemset/problem/320/B" target="_blank">Ping-Pong (Easy Version)</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>66</td>
+<td><a href="http://codeforces.com/problemset/problem/195/B" target="_blank">After Training</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>67</td>
+<td><a href="http://codeforces.com/problemset/problem/231/B" target="_blank">Magic, Wizardry and Wonders</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>68</td>
+<td><a href="http://codeforces.com/problemset/problem/197/B" target="_blank">Limit</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>69</td>
+<td><a href="http://codeforces.com/problemset/problem/260/B" target="_blank">Ancient Prophesy</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>70</td>
+<td><a href="http://codeforces.com/problemset/problem/214/B" target="_blank">Hometask</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>71</td>
+<td><a href="http://codeforces.com/problemset/problem/225/B" target="_blank">Well-known Numbers</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>72</td>
+<td><a href="http://codeforces.com/problemset/problem/63/B" target="_blank">Settlers' Training</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>73</td>
+<td><a href="http://codeforces.com/problemset/problem/281/B" target="_blank">Nearest Fraction</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>74</td>
+<td><a href="http://codeforces.com/problemset/problem/189/B" target="_blank">Counting Rhombi</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>75</td>
+<td><a href="http://codeforces.com/problemset/problem/94/B" target="_blank">Friends</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>76</td>
+<td><a href="http://codeforces.com/problemset/problem/244/B" target="_blank">Undoubtedly Lucky Numbers</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>77</td>
+<td><a href="http://codeforces.com/problemset/problem/216/B" target="_blank">Forming Teams</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>78</td>
+<td><a href="http://codeforces.com/problemset/problem/374/B" target="_blank">Inna and Nine</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>79</td>
+<td><a href="http://codeforces.com/problemset/problem/69/B" target="_blank">Bets</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>80</td>
+<td><a href="http://codeforces.com/problemset/problem/14/B" target="_blank">Young Photographer</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>81</td>
+<td><a href="http://codeforces.com/problemset/problem/149/B" target="_blank">Martian Clock</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>82</td>
+<td><a href="http://codeforces.com/problemset/problem/254/B" target="_blank">Jury Size</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>83</td>
+<td><a href="http://codeforces.com/problemset/problem/61/B" target="_blank">Hard Work</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>84</td>
+<td><a href="http://codeforces.com/problemset/problem/103/A" target="_blank">Testing Pants for Sadness</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>85</td>
+<td><a href="http://codeforces.com/problemset/problem/9/B" target="_blank">Running Student</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>86</td>
+<td><a href="http://codeforces.com/problemset/problem/27/B" target="_blank">Tournament</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>87</td>
+<td><a href="http://codeforces.com/problemset/problem/83/A" target="_blank">Magical Array</a></td>
+<td>Codeforces</td>
+<td>3</td>
+</tr>
+<tr>
+<td>88</td>
+<td><a href="http://codeforces.com/problemset/problem/99/B" target="_blank">Help Chef Gerasim</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>89</td>
+<td><a href="http://codeforces.com/problemset/problem/275/B" target="_blank">Convex Shape</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>90</td>
+<td><a href="http://codeforces.com/problemset/problem/190/B" target="_blank">Surrounded</a></td>
+<td>Codeforces</td>
+<td>5</td>
+</tr>
+<tr>
+<td>91</td>
+<td><a href="http://codeforces.com/problemset/problem/56/B" target="_blank">Spoilt Permutation</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>92</td>
+<td><a href="http://codeforces.com/problemset/problem/114/B" target="_blank">PFAST Inc.</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>93</td>
+<td><a href="http://codeforces.com/problemset/problem/41/B" target="_blank">Martian Dollar</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>94</td>
+<td><a href="http://codeforces.com/problemset/problem/22/B" target="_blank">Bargaining Table</a></td>
+<td>Codeforces</td>
+<td>5</td>
+</tr>
+<tr>
+<td>95</td>
+<td><a href="http://codeforces.com/problemset/problem/31/B" target="_blank">Sysadmin Bob</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>96</td>
+<td><a href="http://codeforces.com/problemset/problem/75/B" target="_blank">Facetook Priority Wall</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>97</td>
+<td><a href="http://codeforces.com/problemset/problem/340/B" target="_blank">Maximal Area Quadrilateral</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>98</td>
+<td><a href="http://codeforces.com/problemset/problem/29/B" target="_blank">Traffic Lights</a></td>
+<td>Codeforces</td>
+<td>4</td>
+</tr>
+<tr>
+<td>99</td>
+<td><a href="http://codeforces.com/problemset/problem/53/B" target="_blank">Blog Photo</a></td>
+<td>Codeforces</td>
+<td>5</td>
+</tr>
+<tr>
+<td>100</td>
+<td><a href="http://codeforces.com/problemset/problem/393/B" target="_blank">Three matrices</a></td>
+<td>Codeforces</td>
+<td>7</td>
+</tr>
+</table>
+</center>
+</body>
+</html>

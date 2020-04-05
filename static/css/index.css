@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    text-align: center;
+    padding: 40px 10px;
+}
+.heading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.form-box{
+    position: relative;
+    margin: auto;
+    transform: translateY(-30px);
+    padding: 100px 40px;
+    border: 1px solid rgb(22, 26, 53);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgb(70, 73, 87);
+    background-color: white;
+}
+.ladder-box{
+    position: relative;
+    margin: auto;
+    padding: 30px 40px;
+    border: 1px solid rgb(22, 26, 53);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgb(70, 73, 87);
+    background-color: white;
+}
+.danger {
+    color: red;
+}
+.danger span {
+    font-size: 27px;
+}
+@keyframes ride{
+    0%{right: 0;}
+    50%{right: calc(100% - 108px);}
+    100%{right: 0;}
+}
+.love {
+    position: absolute;
+    overflow: scroll;
+    right: 0;
+    bottom: -30px;
+    color: white;
+    transition: all 1s;
+    animation: ride 4s infinite ease;
+}
+.love a {
+    text-decoration: none;
+    color: white;
+}
+.love:hover{
+    text-decoration: underline;
+}

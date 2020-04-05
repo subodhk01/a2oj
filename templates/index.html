@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A2oJ Again</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading-container">
+                <div>
+                    <h1>A2OJ</h1>
+                </div>
+            </div>
+            <div class="form-box col-md-6">
+                <form class="form" action="">
+                    {% if msg %}
+                        <span class="danger">
+                            <span>&#128565;</span> {{msg}} <span>&#128565;</span>
+                        </span>
+                    {% endif %}
+                    <div class="form-group">
+                        <input class="form-control" name="handle" type="text" placeholder="Codeforces Handle" />
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" name="div" placeholder="Selec Division">
+                            <option value="1">Div 2.A</option>
+                            <option value="2">Div 2.B</option>
+                            <option value="3">Div 2.C</option>
+                            <option value="4">Div 2.D</option>
+                            <option value="5">Div 2.E</option>
+                            <option value="6">Div 1.D</option>
+                            <option value="7">Div 1.E</option>
+                        </select>
+                    </div>
+                    <input class="btn btn-info" type="submit" value="See Ladder" />
+                </form>
+                <span class="love">
+                    <a href="https://github.com/subodhk01" target="_blank">&#10084;&#65039;subodhk &#10084;&#65039;</a>
+                </span> 
+            </div>
+        </div>
+    </body>
+</html>

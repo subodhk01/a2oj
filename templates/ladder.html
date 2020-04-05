@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A2oJ Again</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <div class="ladder-box col-md-8">
+                <h1>{{division}}</h1>
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID.</th>
+                            <th>Problem Name</th>
+                            <th>Solved</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for step in ladder %}
+                        <tr>
+                            <td>{{step.0}}</td>
+                            <td><a href="https://codeforces.com/problemset/problem/{{step.2}}/{{step.3}}" target="_blank">{{ step.1 }}</a></td>
+                                {% if step.4 %}
+                                    <td style="background-color: rgb(26, 148, 26); color: white;">YES</td>
+                                {% else %}
+                                    <td style="background-color: rgb(221, 41, 41); color: white;">NO</td>
+                                {% endif %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table> 
+            </div>
+        </div>
+    </body>
+</html>
