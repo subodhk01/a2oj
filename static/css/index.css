@@ -44,6 +44,11 @@ h1 {
     box-shadow: 0px 0px 10px 3px rgb(70, 73, 87);
     background-color: white;
 }
+@media(max-width: 800px){
+    .ladder-box{
+        padding: 30px 8px;
+    }
+}
 .danger {
     color: red;
 }
