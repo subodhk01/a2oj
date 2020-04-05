@@ -49,6 +49,13 @@ h1 {
         padding: 30px 8px;
     }
 }
+.ladder-box h1 {
+    margin-bottom: 0;
+}
+.handle-name {
+    margin-bottom: 10px;
+    color: grey;
+}
 .danger {
     color: red;
 }

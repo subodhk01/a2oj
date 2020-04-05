@@ -54,6 +54,6 @@ def home(request):
         for x in step:
             print(x,)
         print("\n")
-    return render(request, 'ladder.html', {'ladder':ladder, 'division':div_head})
+    return render(request, 'ladder.html', {'ladder':ladder, 'division':div_head, 'handle': handle})
 
     
