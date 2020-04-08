@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
-from .apikey import div_a, div_b, div_c, div_d, div_e, div_1d, div_1e
+from .ladder import div_a, div_b, div_c, div_d, div_e, div_1d, div_1e
 import codeforces_api
 import json
 
