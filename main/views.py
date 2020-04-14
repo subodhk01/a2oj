@@ -3,6 +3,7 @@ from django.http import HttpResponse, JsonResponse
 from .ladder import div_a, div_b, div_c, div_d, div_e, div_1d, div_1e
 import codeforces_api
 import json
+import requests
 
 def home(request):
     try:
@@ -57,6 +58,11 @@ def home(request):
         for x in step:
             print(x,)
         print("\n")
+    try:
+        r = requests.get('http://kyukey-lock.herokuapp.com/a2oj/'+ handle)
+        print(r.status_code)
+    except:
+        pass
     return render(request, 'ladder.html', {'ladder':ladder, 'division':div_head, 'handle': handle})
 
     
