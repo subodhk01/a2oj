@@ -69,12 +69,10 @@ h1 {
 }
 .love {
     position: absolute;
-    overflow: scroll;
     right: 0;
     bottom: -30px;
     color: white;
     transition: all 1s;
-    animation: ride 4s infinite ease;
 }
 .love a {
     text-decoration: none;
