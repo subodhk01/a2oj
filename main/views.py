@@ -4,12 +4,13 @@ from .ladder import div_a, div_b, div_c, div_d, div_e, div_1d, div_1e
 import codeforces_api
 import json
 import requests
+import logging
 
 def home(request):
     try:
         handle = request.GET['handle']
         div = request.GET['div']
-        print(div)
+        #print(div)
     except:
         return render(request, 'index.html')
     parser = codeforces_api.CodeforcesApi()
@@ -54,15 +55,16 @@ def home(request):
                 pass
         else:
             ladder.append([ step[0],step[1], step[2], step[3], False ])
-    for step in ladder:
-        for x in step:
-            print(x,)
-        print("\n")
+    # for step in ladder:
+    #     for x in step:
+    #         print(x,)
+    #     print("\n")
     try:
-        r = requests.get('http://kyukey-lock.herokuapp.com/a2oj/'+ handle)
-        print(r.status_code)
+        logging.basicConfig(filename='handle.log',level=logging.INFO)
+        logging.info(handle)
+        #r = requests.get('http://kyukey-lock.herokuapp.com/a2oj/'+ handle)
     except:
-        pass
+        print("Error in logging")
     return render(request, 'ladder.html', {'ladder':ladder, 'division':div_head, 'handle': handle})
 
     
