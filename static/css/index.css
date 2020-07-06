@@ -75,9 +75,13 @@ h1 {
     color: white;
     transition: all 1s;
 }
+.love img {
+    margin-bottom: 5px;
+}
 .love a {
     text-decoration: none;
     color: white;
+    
 }
 .love:hover{
     text-decoration: underline;
