@@ -2,8 +2,8 @@
 
 body{
     background: #536976;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #360033, #0b8793);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #360033, #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
     font-family: 'Roboto Condensed', sans-serif;;
@@ -18,12 +18,13 @@ h1 {
 }
 .heading-container {
     position: fixed;
-    top: 0;
+    top:40px;
     left: 0;
     width: 100%;
     text-align: center;
     padding: 20px;
     color: white;
+    text-shadow: 2px 2px #404040;
 }
 .form-box{
     position: relative;
@@ -69,7 +70,7 @@ h1 {
 }
 .love {
     position: absolute;
-    right: 0;
+    left: 2px;
     bottom: -30px;
     color: white;
     transition: all 1s;

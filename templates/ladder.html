@@ -3,20 +3,20 @@
 <html>
     <head>
         <title>Dynamic A2OJ</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="Easily track your ladder progress with the new A2OJ.">
-        <link rel="icon" href="{% static 'images/corona.webp' %}" sizes="16x16">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+        <meta name='description' content='Easily track your ladder progress with the new A2OJ.'>
+        <link rel='icon' href="{% static 'images/corona.webp' %}" sizes='16x16'>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css'>
+        <link rel='stylesheet' href="{% static 'css/index.css' %}">
     </head>
     <body>
-        <div class="container">
-            <div class="ladder-box col-md-8">
+        <div class='container'>
+            <div class='ladder-box col-md-8'>
                 <h1>{{division}}</h1>
-                <div class="handle-name">&lt; {{handle}} &gt;</div>
-                <table class="table table-hover table-bordered">
+                <div class='handle-name'>&lt; {{handle}} &gt;</div>
+                <table class='table table-hover table-bordered'>
                     <thead>
                         <tr>
                             <th>ID.</th>
@@ -28,11 +28,11 @@
                         {% for step in ladder %}
                         <tr>
                             <td>{{step.0}}</td>
-                            <td><a href="https://codeforces.com/problemset/problem/{{step.2}}/{{step.3}}" target="_blank">{{ step.1 }}</a></td>
+                            <td><a href='https://codeforces.com/problemset/problem/{{step.2}}/{{step.3}}' target='_blank'>{{ step.1 }}</a></td>
                                 {% if step.4 %}
-                                    <td style="background-color: rgb(26, 148, 26); color: white;">YES</td>
+                                    <td style='background-color: rgb(26, 148, 26); color: white;'>YES</td>
                                 {% else %}
-                                    <td style="background-color: rgb(221, 41, 41); color: white;">NO</td>
+                                    <td style='background-color: rgb(221, 41, 41); color: white;'>NO</td>
                                 {% endif %}
                         </tr>
                         {% endfor %}
