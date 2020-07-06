@@ -33,7 +33,7 @@ h1 {
     padding: 100px 40px;
     border: 1px solid rgb(22, 26, 53);
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 3px rgb(70, 73, 87);
+    box-shadow: 0px 0px 10px 3px #262727;
     background-color: white;
 }
 .ladder-box{
@@ -42,7 +42,7 @@ h1 {
     padding: 30px 40px;
     border: 1px solid rgb(22, 26, 53);
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 3px rgb(70, 73, 87);
+    box-shadow: 0px 0px 10px 3px #262727;
     background-color: white;
 }
 @media(max-width: 800px){
