@@ -45,11 +45,13 @@ def home(request):
         div_head = "DIV 1.E"
     else:
         return render(request, 'index.html' , {'msg': 'Invalid Division selected '})
+    solved = 0
     for step in division:
         for sub in submissions['result']:
             try:
                 if int(step[2])==sub['problem']['contestId'] and step[3]==sub['problem']['index'] and sub['verdict']=="OK":
                     ladder.append([ step[0],sub['problem']['name'], sub['problem']['contestId'], sub['problem']['index'], True ])
+                    solved = solved + 1
                     break
             except:
                 pass
@@ -65,6 +67,4 @@ def home(request):
         #r = requests.get('http://kyukey-lock.herokuapp.com/a2oj/'+ handle)
     except:
         print("Error in logging")
-    return render(request, 'ladder.html', {'ladder':ladder, 'division':div_head, 'handle': handle})
-
-    
+    return render(request, 'ladder.html', {'ladder':ladder, 'division':div_head, 'handle': handle, 'solved':solved})

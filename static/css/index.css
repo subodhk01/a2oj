@@ -81,8 +81,18 @@ h1 {
 .love a {
     text-decoration: none;
     color: white;
-    
 }
 .love:hover{
     text-decoration: underline;
+}
+.count {
+  cursor: text !important;
+}
+.count:hover {
+  background-color: #28a745;
+  border-color: #28a745;
+  text-decoration: none;
+}
+.table-bordered {
+  margin-top: 10px;
 }
