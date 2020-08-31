@@ -1,88 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-body{
-    background: #536976;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #151513,#414345);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right,  #151513, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body {
+  background: #536976; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #151513,
+    #414345
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #151513,
+    #414345
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1 {
-    font-family: 'Roboto Condensed', sans-serif;;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .container {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    width: 100vw;
-    text-align: center;
-    padding: 40px 10px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+  padding: 40px 10px;
 }
 .heading-container {
-    position: fixed;
-    top:40px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-    color: white;
-    text-shadow: 2px 2px #404040;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px #404040;
 }
-.form-box{
-    position: relative;
-    margin: auto;
-    transform: translateY(-30px);
-    padding: 100px 40px;
-    border: 1px solid rgb(22, 26, 53);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 3px #262727;
-    background-color: white;
+.form-box {
+  position: relative;
+  margin: auto;
+  transform: translateY(-30px);
+  padding: 100px 40px;
+  border: 1px solid rgb(22, 26, 53);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px #262727;
+  background-color: white;
 }
-.ladder-box{
-    position: relative;
-    margin: auto;
-    padding: 30px 40px;
-    border: 1px solid rgb(22, 26, 53);
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 3px #262727;
-    background-color: white;
+.ladder-box {
+  position: relative;
+  margin: auto;
+  padding: 30px 40px;
+  border: 1px solid rgb(22, 26, 53);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 3px #262727;
+  background-color: white;
 }
-@media(max-width: 800px){
-    .ladder-box{
-        padding: 30px 8px;
-    }
+@media (max-width: 800px) {
+  .ladder-box {
+    padding: 30px 8px;
+  }
 }
 .ladder-box h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .handle-name {
-    margin-bottom: 10px;
-    color: grey;
+  margin-bottom: 10px;
+  color: grey;
 }
 .danger {
-    color: red;
+  color: red;
 }
 .danger span {
-    font-size: 27px;
+  font-size: 27px;
 }
-@keyframes ride{
-    0%{right: 0;}
-    50%{right: calc(100% - 108px);}
-    100%{right: 0;}
+@keyframes ride {
+  0% {
+    right: 0;
+  }
+  50% {
+    right: calc(100% - 108px);
+  }
+  100% {
+    right: 0;
+  }
 }
 .love {
-    position: absolute;
-    left: 2px;
-    bottom: -30px;
-    color: white;
-    transition: all 1s;
+  position: absolute;
+  left: 2px;
+  bottom: -30px;
+  color: white;
+  transition: all 1s;
 }
 .love img {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 .love a {
-    text-decoration: none;
-    color: white;
-    
+  text-decoration: none;
+  color: white;
 }
-.love:hover{
-    text-decoration: underline;
+.love:hover {
+  text-decoration: underline;
+}
+.count {
+  cursor: text !important;
+}
+.count:hover {
+  background-color: #28a745;
+  border-color: #28a745;
+  text-decoration: none;
+}
+.table-bordered {
+  margin-top: 10px;
 }
