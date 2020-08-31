@@ -17,6 +17,11 @@
             <div class="ladder-box col-md-8">
                 <h1>{{division}}</h1>
                 <div class="handle-name">&lt; {{handle}} &gt;</div>
+                <div class="mb-2">
+                    <span type="text" class="btn btn-success count">
+                        Solved <span class="badge badge-light">{{solved}}</span>
+                    </span>
+                </div>
                 <table class="table table-hover table-bordered">
                     <thead>
                         <tr>
@@ -38,7 +43,7 @@
                         </tr>
                         {% endfor %}
                     </tbody>
-                </table> 
+                </table>
             </div>
         </div>
     </body>
