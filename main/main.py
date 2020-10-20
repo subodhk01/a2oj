@@ -109,4 +109,4 @@ for link in b:
     link = link[41:]
     c.append(link.split('/'))
 for x in c:
-    print(x,",")
+    print(x, ",")
