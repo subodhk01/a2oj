@@ -138,7 +138,7 @@ div_b = [
     [34, 'Lucky Substring', '122', 'B'],
     [35, 'Combination', '155', 'B'],
     [36, 'Jeff and Periods', '352', 'B'],
-    [37, 'Unary', '133', 'B'],
+    
     [38, 'Polo the Penguin and Matrix', '289', 'B'],
     [39, 'Dima and To-do List', '366', 'B'],
     [40, 'Coins', '58', 'B'],
