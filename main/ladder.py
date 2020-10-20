@@ -138,7 +138,7 @@ div_b = [
     [34, 'Lucky Substring', '122', 'B'],
     [35, 'Combination', '155', 'B'],
     [36, 'Jeff and Periods', '352', 'B'],
-    
+    [37, 'Unary', '133', 'B'],
     [38, 'Polo the Penguin and Matrix', '289', 'B'],
     [39, 'Dima and To-do List', '366', 'B'],
     [40, 'Coins', '58', 'B'],
@@ -695,7 +695,6 @@ div_1e = [
     [77, 'Matrix', '243', 'E'],
     [78, 'Planar Graph', '223', 'E'],
     [79, 'Misha and LCP on Tree', '504', 'E'],
-    [80, 'Sleeping', '113', 'E'],
     [81, 'String Theory', '269', 'E'],
     [82, 'Martian Colony', '154', 'E'],
     [83, 'Birthday', '128', 'E'],
