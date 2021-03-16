@@ -105,14 +105,14 @@ div_b = [
 
 parser = codeforces_api.CodeforcesApi()
 probss = parser.problemset_problems()
-probs = probss['result']['problems']
+probs = probss['problems']
 
 div_B = []
 count = 1
 for step in div_b:
     for prob in probs:
-        if int(step[0])==prob['contestId'] and step[1]==prob['index']:
-            div_B.append([ count, prob['name'], step[0], step[1] ])
+        if int(step[0])==prob.contest_id and step[1]==prob.index:
+            div_B.append([ count, prob.name, step[0], step[1] ])
             count += 1
 for x in div_B:
     print(x)
