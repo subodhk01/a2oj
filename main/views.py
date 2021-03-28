@@ -81,10 +81,10 @@ def home(request):
         return render(request, 'index.html' , {'msg': 'Invalid Division selected '})
     solved = 0
     for step in division:
-        for sub in submissions['result']:
+        for sub in submissions:
             try:
-                if int(step[2])==sub['problem']['contestId'] and step[3]==sub['problem']['index'] and sub['verdict']=="OK":
-                    ladder.append([ step[0],sub['problem']['name'], sub['problem']['contestId'], sub['problem']['index'], True ])
+                if int(step[2])==sub.problem.contest_id and step[3]==sub.problem.index and sub.verdict=="OK":
+                    ladder.append([ step[0],sub.problem.name, sub.problem.contest_id, sub.problem.index, True ])
                     solved = solved + 1
                     break
             except:
