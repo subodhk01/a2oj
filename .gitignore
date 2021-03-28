@@ -6,5 +6,5 @@ db.sqlite3
 handle.log
 handle-logs-backup.txt
 /__pycache__/
-
+env
 a2oj_env/
