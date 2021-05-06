@@ -21,9 +21,9 @@ Go to the 'settings.json' in '.vscode' file and add and replace the 'Script' fil
 In this way your environment will be activated.
 
 3. Cloning the repo
-  1. Fork the repo
-  2. Now, go 'a20j-contribution', and clone your forked repo (don't try to clone the main repo (subodhk01/a2oj)). Your cloned repo should be directly inside the 'a20j-   contribution' folder.
-     Inside the 'a20j-contribution' type ```ls``` and you can see the 'env' folder and 'a2oj' folder.
+Fork the repo
+Now, go 'a20j-contribution', and clone your forked repo (don't try to clone the main repo (subodhk01/a2oj)). Your cloned repo should be directly inside the 'a20j-   contribution' folder.
+Inside the 'a20j-contribution' type ```ls``` and you can see the 'env' folder and 'a2oj' folder.
 4. Installing all the dependencies(using requirements.txt)
 Inside the 'a20j-contribution'; type ```cd a2oj```. This will take you inside the your local repo of 'a2oj'. 
 Now, type ```pip3 install -r requirements.txt```. This will install all the dependencies mentoned in the 'requirements.txt' file. (Help[https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project])
