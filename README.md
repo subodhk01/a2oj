@@ -10,7 +10,7 @@ PS - I'm still not doing anything expect being lazy :-()
 
 ## Contributions Section
 
-#### How to install:
+#### How to install: ([See this video](https://www.youtube.com/watch?v=Wuuiga0wKdQ&t=61s))
 - Create a folder (a20j-contribution)
 - Create a virtual environment
 ```
