@@ -26,4 +26,4 @@ In this way your environment will be activated.
 * Inside the 'a20j-contribution' type ```ls``` and you can see the 'env' folder and 'a2oj' folder.
 - Installing all the dependencies(using requirements.txt)
 * Inside the 'a20j-contribution'; type ```cd a2oj```. This will take you inside the your local repo of 'a2oj'. 
-* Now, type ```pip3 install -r requirements.txt```. This will install all the dependencies mentoned in the 'requirements.txt' file. (Help[https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project])
+* Now, type ```pip3 install -r requirements.txt```. This will install all the dependencies mentoned in the 'requirements.txt' file. ([Help](https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project))
