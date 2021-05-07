@@ -10,27 +10,27 @@ PS - I'm still not doing anything expect being lazy :-()
 
 ## For Contributors
 
-#### How to install:
+#### Install and Setup:
 Refer to this video for better understanding of creating and activating virtual environment. ([See this video](https://www.youtube.com/watch?v=Wuuiga0wKdQ&t=61s))
 - Create a folder (a20j-contribution)
 - Create a virtual environment
 ```
 py -m venv env
 ```
-Now, you have to activate the environment.
+- Now, you have to activate the environment.
 * Go to the 'settings.json' in '.vscode' file and add and replace the path with the complete path of the 'Scripts' folder.
 * In VS CodeTo get the complete path of 'Scripts' folder, click on the env folder (the name of your environment, in our case it's ```env```) and then right click on the 'Scripts' folder and choose "copy path" (not "relative path")
 * It will look something like -> 
 ```
 {
-    "python.pythonPath": "C:\\Users\\username\\Desktop\\dynamic-a2oj\\env\\Scripts"
+    "python.pythonPath": "C:\\Users\\username\\Desktop\\a20j-contribution\\env\\Scripts"
 }
 ```
 * In this way your environment will be activated.
 
-- Cloning the repo
-* Fork the repo
-* Now, go 'a20j-contribution', and clone your forked repo (don't try to clone the main repo (subodhk01/a2oj)). Your cloned repo should be directly inside the 'a20j-   contribution' folder.
+#### Cloning the repo
+- Fork the repo
+* Now, go inside the 'a20j-contribution' folder, and clone your forked repo (Help[https://www.digitalocean.com/community/tutorials/fork-clone-make-changes-push-to-github]) (don't try to clone the main repo (subodhk01/a2oj)). Your cloned repo should be directly inside the 'a20j-contribution' folder.
 * Inside the 'a20j-contribution' type ```ls``` and you can see the 'env' folder and 'a2oj' folder.
 - Installing all the dependencies(using requirements.txt)
 * Inside the 'a20j-contribution'; type ```cd a2oj```. This will take you inside the your local repo of 'a2oj'. 
