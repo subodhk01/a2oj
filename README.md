@@ -11,22 +11,22 @@ PS - I'm still not doing anything expect being lazy :-()
 ## For Contributors
 
 #### How to install:
-Refer to this video for better understanding ([See this video](https://www.youtube.com/watch?v=Wuuiga0wKdQ&t=61s))
+Refer to this video for better understanding of creating and activating virtual environment. ([See this video](https://www.youtube.com/watch?v=Wuuiga0wKdQ&t=61s))
 - Create a folder (a20j-contribution)
 - Create a virtual environment
 ```
 py -m venv env
 ```
 Now, you have to activate the environment.
-Go to the 'settings.json' in '.vscode' file and add and replace the path with the complete path of the 'Scripts' folder.
-In VS CodeTo get the complete path of 'Scripts' folder, click on the env folder (the name of your environment, in our case it's ```env```) and then right click on the 'Scripts' folder and choose "copy path" (not "relative path")
-It will look something like -> 
+* Go to the 'settings.json' in '.vscode' file and add and replace the path with the complete path of the 'Scripts' folder.
+* In VS CodeTo get the complete path of 'Scripts' folder, click on the env folder (the name of your environment, in our case it's ```env```) and then right click on the 'Scripts' folder and choose "copy path" (not "relative path")
+* It will look something like -> 
 ```
 {
     "python.pythonPath": "C:\\Users\\username\\Desktop\\dynamic-a2oj\\env\\Scripts"
 }
 ```
-In this way your environment will be activated.
+* In this way your environment will be activated.
 
 - Cloning the repo
 * Fork the repo
