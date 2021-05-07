@@ -30,8 +30,10 @@ py -m venv env
 
 #### Cloning the repo
 - Fork the repo
-* Now, go inside the 'a20j-contribution' folder, and clone your forked repo (Help[https://www.digitalocean.com/community/tutorials/fork-clone-make-changes-push-to-github]) (don't try to clone the main repo (subodhk01/a2oj)). Your cloned repo should be directly inside the 'a20j-contribution' folder.
+* Now, go inside the 'a20j-contribution' folder, and clone your forked repo ([Help](https://www.digitalocean.com/community/tutorials/fork-clone-make-changes-push-to-github)) (don't try to clone the main repo (subodhk01/a2oj)). Your cloned repo should be directly inside the 'a20j-contribution' folder.
 * Inside the 'a20j-contribution' type ```ls``` and you can see the 'env' folder and 'a2oj' folder.
 - Installing all the dependencies(using requirements.txt)
 * Inside the 'a20j-contribution'; type ```cd a2oj```. This will take you inside the your local repo of 'a2oj'. 
 * Now, type ```pip3 install -r requirements.txt```. This will install all the dependencies mentoned in the 'requirements.txt' file. ([Help](https://stackoverflow.com/questions/41457612/how-to-use-requirements-txt-to-install-all-dependencies-in-a-python-project))
+- Run the localhost sever
+* While being inside the 'a2oj' folder, type ```python manage.py runserver```. You local host should be up and running.
