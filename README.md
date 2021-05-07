@@ -42,4 +42,4 @@ py -m venv env
 
 
 #### Run the localhost sever
-* While being inside the 'a2oj' folder, type ```python manage.py runserver```. You local host should be up and running.
+* While being inside the 'a2oj' folder, type ```python manage.py runserver```. Finally, Your local host should be up and running.
