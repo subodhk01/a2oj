@@ -10,7 +10,6 @@
         <link rel="icon" href="{% static 'images/corona.webp' %}" sizes="16x16">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="{% static 'css/index.css' %}">
-        <meta http-equiv="refresh" content="120" >
     </head>
     <body>
         <div class="container">
@@ -22,6 +21,10 @@
                     <span type="text" class="btn btn-success count">
                         Solved <span class="badge badge-light">{{solved}}</span>
                     </span>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                        <label class="custom-control-label" for="customSwitch1">Auto-Refresh every 2-minutes</label>
+                    </div>
                 </div>
                 <table class="table table-hover table-bordered">
                     <thead>
@@ -48,4 +51,20 @@
             </div>
         </div>
     </body>
+
+    <script>
+        function autoRefresh() {
+            window.location = window.location.href;
+        }
+        var timerId = setInterval('autoRefresh()', 120000);
+        const toggleSwitch = document.querySelector(".custom-control-input");
+        toggleSwitch.addEventListener("change", (event) => {
+            if (event.target.checked)
+                timerId = setInterval('autoRefresh()', 120000);
+            else if (!event.target.checked)
+                timerId = clearInterval(timerId);
+        })
+    
+    
+    </script>
 </html>
