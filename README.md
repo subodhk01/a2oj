@@ -6,4 +6,4 @@ Since our all time favourite A20J ladders became static, my laziness to solve pr
 https://codeforces.com/blog/entry/75669</br>
 
 
-PS - I'm still not doing anything expect being lazy :-()
+PS - I'm still not doing anything except being lazy :-()
