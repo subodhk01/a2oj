@@ -1,5 +1,3 @@
-
-
 a = '''
 http://codeforces.com/problemset/problem/4/A
 http://codeforces.com/problemset/problem/71/A
