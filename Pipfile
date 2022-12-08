@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 asgiref = "==3.2.7"
-certifi = "==2019.11.28"
+certifi = "==2022.12.7"
 chardet = "==3.0.4"
 gunicorn = "==20.0.4"
 idna = "==2.9"
