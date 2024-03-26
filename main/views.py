@@ -1,22 +1,27 @@
-from django.shortcuts import render
-from django.http import HttpResponse, JsonResponse
-from .ladder import div_a, div_b, div_c, div_d, div_e, div_1d, div_1e, rating_1, rating_2, rating_3, rating_4, rating_5, rating_6, rating_7, rating_8, rating_9, rating_10, rating_11
 import codeforces_api
-import json
-import requests
 import logging
+from collections import defaultdict
+
+from django.shortcuts import render
+from .ladder import div_a, div_b, div_c, div_d, div_e, div_1d, div_1e, rating_1, rating_2, rating_3, rating_4, rating_5, rating_6, rating_7, rating_8, rating_9, rating_10, rating_11
+
+
+
 def home(request):
     try:
         handle = request.GET['handle']
         div = request.GET['div']
         rating = request.GET['rating']
-        #print(div)
     except:
         return render(request, 'index.html')
     parser = codeforces_api.CodeforcesApi()
     try:
-        submissions = parser.user_status(handle=handle)
-    except:
+        raw_submissions = parser.user_status(handle=handle)
+        submission_by_contest = defaultdict(list)
+        for submission in raw_submissions:
+            submission_by_contest[submission.problem.contest_id].append(submission)
+    except Exception as e:
+        print(e)
         return render(request, 'index.html' , {'msg': 'Invalid Codeforces handle '})
     ladder = []
     division = []
@@ -80,21 +85,23 @@ def home(request):
     else:
         return render(request, 'index.html' , {'msg': 'Invalid Division selected '})
     solved = 0
-    for step in division:
-        for sub in submissions['result']:
+    for problem_tuple in division:
+        problem_contest = int(problem_tuple[2])
+        problem_index = str(problem_tuple[3])
+        for submission in submission_by_contest[problem_contest]:
             try:
-                if int(step[2])==sub['problem']['contestId'] and step[3]==sub['problem']['index'] and sub['verdict']=="OK":
-                    ladder.append([ step[0],sub['problem']['name'], sub['problem']['contestId'], sub['problem']['index'], True ])
+                verdict = str(submission.verdict)
+                submission_index = str(submission.problem.index)
+                if problem_index==submission_index and verdict=="OK":
+                    print(problem_index, submission_index, verdict)
+                if (problem_index == submission_index) and (verdict == "OK"):
+                    ladder.append([ problem_tuple[0], submission.problem.name, submission.problem.contest_id, submission_index, True ])
                     solved = solved + 1
                     break
             except:
                 pass
         else:
-            ladder.append([ step[0],step[1], step[2], step[3], False ])
-    # for step in ladder:
-    #     for x in step:
-    #         print(x,)
-    #     print("\n")
+            ladder.append([ problem_tuple[0],problem_tuple[1], problem_tuple[2], problem_tuple[3], False ])
     try:
         logging.basicConfig(filename='handle.log',level=logging.INFO)
         logging.info(handle)
