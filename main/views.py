@@ -92,8 +92,6 @@ def home(request):
             try:
                 verdict = str(submission.verdict)
                 submission_index = str(submission.problem.index)
-                if problem_index==submission_index and verdict=="OK":
-                    print(problem_index, submission_index, verdict)
                 if (problem_index == submission_index) and (verdict == "OK"):
                     ladder.append([ problem_tuple[0], submission.problem.name, submission.problem.contest_id, submission_index, True ])
                     solved = solved + 1
