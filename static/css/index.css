@@ -93,3 +93,42 @@ h1 {
   border-color: #28a745;
   text-decoration: none;
 }
+
+.coffee-container {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-img {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.coffee-img img {
+    max-width: 100px;
+}
+.coffee-button {
+    padding: 10px;
+}
+.coffee-button button {
+    padding:0.3rem 1.5rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.coffee-button button:hover {
+    transform: translateY(-5px);
+}
+
+@media only screen and (max-width: 768px) {
+    .coffee-img {
+        display: none;
+    }
+}
